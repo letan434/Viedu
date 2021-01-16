@@ -1,0 +1,83 @@
+﻿@model ViEdu.Data.Entities.Position
+
+@{
+    ViewData["Title"] = "Cap nhat";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container">
+    <div class="card mb-4">
+        <div class="card-header">
+            <a class="btn btn-success" asp-action="Index" asp-controller="Position">Về danh sách</a>
+        </div>
+        <div class="card-body">
+            <div class="col-md-4">
+                <form asp-action="Edit" enctype="multipart/form-data" method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <input type="hidden" asp-for="ID" />
+                    <div class="form-group">
+                        <label asp-for="POSITION_CD" class="control-label"></label>
+                        <input asp-for="POSITION_CD" class="form-control" />
+                        <span asp-validation-for="POSITION_CD" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="NAME" class="control-label"></label>
+                        <input asp-for="NAME" class="form-control" />
+                        <span asp-validation-for="NAME" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="DESC" class="control-label"></label>
+                        <input asp-for="DESC" class="form-control" />
+                        <span asp-validation-for="DESC" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="JOB_REQUIRED" class="control-label"></label>
+                        <input asp-for="JOB_REQUIRED" class="form-control" />
+                        <span asp-validation-for="JOB_REQUIRED" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="DEPT_CD" class="control-label"></label>
+                        <input asp-for="DEPT_CD" class="form-control" />
+                        <span asp-validation-for="DEPT_CD" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="CREATED_BY" class="control-label"></label>
+                        <input asp-for="CREATED_BY" class="form-control" />
+                        <span asp-validation-for="CREATED_BY" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="CREATED_DATE" class="control-label"></label>
+                        <input asp-for="CREATED_DATE" class="form-control" />
+                        <span asp-validation-for="CREATED_DATE" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="JOB_TYPE_DESC" class="control-label"></label>
+                        <input asp-for="JOB_TYPE_DESC" class="form-control" />
+                        <span asp-validation-for="JOB_TYPE_DESC" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="MODIFIED_BY" class="control-label"></label>
+                        <input asp-for="MODIFIED_BY" class="form-control" />
+                        <span asp-validation-for="MODIFIED_BY" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="MODIFIED_DATE" class="control-label"></label>
+                        <input asp-for="MODIFIED_DATE" class="form-control" />
+                        <span asp-validation-for="MODIFIED_DATE" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="RANK" class="control-label"></label>
+                        <input asp-for="RANK" class="form-control" />
+                        <span asp-validation-for="RANK" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="NOTE" class="control-label"></label>
+                        <input asp-for="NOTE" class="form-control" />
+                        <span asp-validation-for="NOTE" class="text-danger"></span>
+                    </div><div class="form-group">
+                        <input type="submit" value="Cập nhật" class="btn btn-primary" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

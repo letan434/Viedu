@@ -1,0 +1,51 @@
+﻿<Properties StartupConfiguration="{5A171149-CC3E-43BF-847A-526DE883F195}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ViEdu/Views/Position/Edit.cshtml">
+    <Files>
+      <File FileName="ViEdu/Controllers/PositionController.cs" Line="58" Column="14" />
+      <File FileName="ViEdu/Controllers/DepartmentController.cs" Line="126" Column="41" />
+      <File FileName="ViEdu/Views/Department/Edit.cshtml" Line="31" Column="19" />
+      <File FileName="ViEdu/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="ViEdu/Views/Department/Index.cshtml" Line="15" Column="23" />
+      <File FileName="ViEdu/Views/Position/Edit.cshtml" Line="66" Column="27" />
+      <File FileName="ViEdu/Views/Position/Details.cshtml" Line="33" Column="42" />
+      <File FileName="ViEdu/Views/Position/Delete.cshtml" Line="14" Column="83" />
+      <File FileName="ViEdu/Views/Department/Create.cshtml" Line="1" Column="1" />
+      <File FileName="ViEdu/Views/Position/Create.cshtml" Line="54" Column="58" />
+      <File FileName="ViEdu/Views/Department/Details.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ViEdu" expanded="True">
+            <Node name="ViEdu" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="Entities" expanded="True" />
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Department" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Position" expanded="True">
+                  <Node name="Edit.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="assets" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.ViEdu PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
